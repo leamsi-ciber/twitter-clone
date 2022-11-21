@@ -10,11 +10,14 @@
     "@emoji-mart/react": "^1.0.1",
     "@heroicons/react": "^1.0.6",
     "emoji-mart": "^3.0.1",
+    "firebase": "^9.14.0",
     "next": "latest",
+    "next-auth": "^4.0.0-beta.7",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/emoji-mart": "^3.0.9",
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
