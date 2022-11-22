@@ -31,7 +31,7 @@ const Input = () => {
     setLoading(true);
 
     const docRef = await addDoc(collection(db, "posts"), {
-      id: session.user,
+      id: session.user.uid,
       username: session.user.name,
       userImg: session.user.image,
       tag: session.user.tag,
@@ -81,7 +81,7 @@ const Input = () => {
       }`}
     >
       <img
-        src="https://pbs.twimg.com/profile_images/1490432359396777987/wqmy8v4T_400x400.jpg"
+        src={session.user.image}
         alt=""
         className="h-11 w-11 rounded-full cursor-pointer"
       />
